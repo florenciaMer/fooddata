@@ -1,0 +1,314 @@
+*{
+    font-family: Roboto;
+}
+.text-secondary{
+    font-family: "Roboto Black";
+    font-size: 20px;
+}
+
+.footer{
+    /*background-color:#2D2E82;;*/
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.list-panel:hover{
+    color: red;
+    font-weight: bold;
+}
+.border-bottom-1{
+    border-bottom: solid #c3c0c0 1px;
+
+}
+.minheight700{
+    min-height: 700px;
+}
+
+.minheight570{
+    min-height: 570px;
+}
+
+.minheight550{
+    min-height: 550px;
+}
+.height430{
+    height: 430px;
+}
+
+.height480{
+    height: 480px;
+}
+
+.height500{
+    height: 800px;
+}
+.opacidad-blanca{
+    background-color: white;
+    opacity: .8;
+    padding: 2%;
+    text-align: center;
+}
+.padding-2{
+    padding: 2px;
+}
+
+.mt {
+    padding-top: 5px;
+}
+
+.mleft-25{
+    margin-left: 25px;
+}
+
+.height-3{
+    height: 3px;
+}
+
+.height-430{
+    height: 430px;
+}
+.minheight430{
+    min-height: 430px;
+}
+.marginl2{
+    margin-left: 2%;
+}
+.marginl8{
+    margin-left: 8%;
+}
+.whidth350{
+    width: 350px;
+}
+.height350{
+    height: 350px!important;
+}
+
+.marginl12{
+    margin-left: 12%;
+}
+.float1{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+
+    z-index:100;
+}
+.float1:hover {
+    text-decoration: none;
+    background-color: #0fb64d;
+}
+.height40{
+    height: 40px;
+}
+.w-183{
+    width: 183px;
+}
+.my-float{
+    margin-top:16px;
+}
+
+
+.mleft150{
+    margin-left: 150px;
+}
+.logout{
+    background-color: #d4d6d8;
+}
+.aLogout{
+    color: #827d7d;
+}
+.height-500{
+    height: 500px;
+}
+
+.marginl10{
+    margin-left: 10px!important;
+}
+.marginl14{
+    margin-left: 14px!important;
+}
+.marginl16{
+    margin-left: 16px!important;
+}
+.padding-10{
+    padding: 10px!important;
+}
+.ml-38{
+    margin-left: -38px;
+}
+
+.w-250{
+    width: 250px;
+}
+.ml-40{
+    margin-left: -40px;
+}
+
+.ml-70 {
+    margin-left: 70px;
+}
+.ml-100{
+    margin-left: 100px;
+}
+
+.ml-110{
+    margin-left: 110px;
+}
+
+.ml-200{
+    margin-left: 200px;
+}
+
+.ml-210{
+    margin-left: 210px;
+}
+.nav-img{
+    background-image: url('../img/nav.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-azul{
+    background-color: #2D2E82;
+}
+.text-blue{
+    color: #2D2E82;
+}
+.trama{
+    background-image: url("../img/trama.png");
+    background-size: cover;
+    background-position: bottom;
+    padding: 20px;
+
+}
+
+
+.trama2 {
+    background-image: url(../img/trama2.png);
+    background-size: contain;
+    background-position: center;
+    padding: 20px;
+    background-repeat: no-repeat;
+    height: 80px;
+    margin-top: 50px;
+    width: 650px;
+}
+
+.principal{
+    background-image: url("../img/principal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f8f9fa;
+}
+
+
+.w-390{
+    width: 390px;
+}
+.mleft-25{
+    margin-left: 25px;
+}
+.margin-right12{
+    margin-right: 5px;
+}
+.hover-black{
+    transition-property: background-color;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+}
+.hover-black:hover{
+    background-color: black!important;
+}
+
+/*.hover-white{*/
+/*    transition: color 2s;*/
+/*}*/
+.hover-white:hover{
+    color: white!important;
+}
+.color-check{
+    background-color: #5591ee;
+}
+
+.trash-white{
+    color: white;
+}
+.trash-white:hover{
+    color: white;
+}
+.pointer-events{
+    pointer-events: none;
+}
+
+.alert-pink{
+    background-color: #e2aeb3!important;
+}
+
+.marginTopMenos19{
+    margin-top: -19px;
+}
+
+/* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button {
+    display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: #2c3e50;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #f0f3f4;
+    border-radius: 5px;
+    font-family: "Roboto", arial, sans-serif;
+    font-size: 14px;
+    border:1px solid darkgrey;
+    background:#ecf0f1;
+    padding:5px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+
+input[type="date"], focus {
+    color: #95a5a6;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .d-none-mobile{
+        display: none;
+    }
+    .flex-column-mobile{
+        flex-direction: column!important;
+    }
+    .mobile-width-90porc{
+        width: 90%!important;
+    }
+    .
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
